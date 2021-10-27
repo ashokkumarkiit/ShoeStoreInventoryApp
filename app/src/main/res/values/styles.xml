@@ -16,4 +16,28 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="page_header_label">
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/font_size_xlarge</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="input_label">
+        <item name="android:layout_marginStart">@dimen/layour_margin_large</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_medium</item>
+        <item name="android:layout_marginEnd">@dimen/layour_margin_large</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textSize">@dimen/font_size_large</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="button_primary_style">
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
